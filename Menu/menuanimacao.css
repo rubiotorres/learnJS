@@ -1,0 +1,40 @@
+body {
+	font-family:Trebuchet MS;
+	font-size:14px;
+}
+.codigo {
+	width:400px;
+	border:1px dashed;
+	background-color:#E6E6FA;
+	padding: 4px 4px;
+}
+.nav {
+	width:260px;
+	border:1px dashed;
+	background-color:#E6E6FA;
+	padding: 4px 4px;
+}
+.submenu {
+	margin-bottom: 1px;
+	background-color: #0099FF;
+	color: #FFFFFF;
+	width: 136px;
+	padding: 1px;
+	text-align: center;
+	font-weight: bold;
+	border: 1px black solid;
+	font-size: 11px;
+}
+.menu {
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 1px;
+	background-color: #0099FF;
+	color: #FFFFFF;
+	width: 136px;
+	padding: 1px;
+	text-align: center;
+	font-weight: bold;
+	border: 1px black solid;
+	font-size: 11px;
+}

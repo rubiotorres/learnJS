@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Contagem Regressiva</title>
+<SCRIPT language=JavaScript>
+var sHors = "0"+0; 
+var sMins = "0"+0;
+var sSecs = -1;
+function getSecs(){
+	sSecs++;
+	if(sSecs==60){sSecs=0;sMins++;
+    if(sMins<=9)sMins="0"+sMins;
+    }
+	if(sMins==60){sMins="0"+0;sHors++;
+    if(sHors<=9)sHors="0"+sHors;
+	}
+	if(sSecs<=9)sSecs="0"+sSecs;
+clock1.innerHTML=sHors+"<font color=#000000>:</font>"+sMins+"<font color=#000000>:</font>"+sSecs;
+    setTimeout('getSecs()',1000);
+
+	}
+</SCRIPT>
+
+</head>
+<body>
+
+<h2 align="center"> <font color="#065ca5" face="tahoma">Contagem progressiva</font></h2>
+<hr color="#065ca5">
+<div align="center"> <FONT SIZE="2" COLOR="#065ca5" face="arial"> </font>&nbsp;<font color="#FF0000" size="2"> 
+    </font>&nbsp; &nbsp;Aguarde...<br><font color="#FF0000" size="3" face="Arial Black"><span id="clock1"></span><script>setTimeout('getSecs()',1000);</script></font><br>
+  <br>
+  <br></FONT></div>
+</body>
+</html>
